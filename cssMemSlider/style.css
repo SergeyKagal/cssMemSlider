@@ -212,7 +212,10 @@ input {
     margin-left: -170%;
   }
   #radio4:checked~.text-wrapper .text-list {
-    margin-left: -273%;
+    margin-left: -268%;
+  }
+  #radio1:checked~.text-wrapper .text-list {
+    margin-left: 17%;
   }
 }
 
