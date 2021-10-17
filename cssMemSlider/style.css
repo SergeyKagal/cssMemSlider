@@ -98,23 +98,23 @@ input {
   margin-left: -400%;
 }
 
-#radio1:checked~.slide-wrapper .text {
-  margin-left: 0;
+#radio1:checked~.text-wrapper .text-list {
+  margin-left: 25%;
 }
 
-#radio2:checked~.slide-wrapper .text {
+#radio2:checked~.text-wrapper .text-list {
   margin-left: -74%;
 }
 
-#radio3:checked~.slide-wrapper .text-list {
+#radio3:checked~.text-wrapper .text-list {
   margin-left: -175%;
 }
 
-#radio4:checked~.slide-wrapper .text-list {
+#radio4:checked~.text-wrapper .text-list {
   margin-left: -275%;
 }
 
-#radio5:checked~.slide-wrapper .text-list {
+#radio5:checked~.text-wrapper .text-list {
   margin-left: -375%;
 }
 
