@@ -18,6 +18,12 @@ body {
   background-color: #21526e;
 }
 
+#slider span {
+  width: 20%;
+  float: left;
+  margin-bottom: 83px;
+}
+
 .slider article {
   width: 20%;
   float: left;
@@ -28,6 +34,16 @@ body {
   line-height: 0;
 }
 
+.text-list {
+  width: 500%;
+  line-height: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 32px;
+  text-align: left;
+  margin-left: 25%;
+  color: #bbbbbb;
+}
+
 #overflow {
   width: 100%;
   overflow: hidden;
@@ -35,6 +51,7 @@ body {
 
 .frame img {
   width: 50%;
+  margin-bottom: 10px;
 }
 
 .desktop:checked~#slider {
@@ -81,6 +98,26 @@ input {
   margin-left: -400%;
 }
 
+#radio1:checked~.slide-wrapper .text {
+  margin-left: 0;
+}
+
+#radio2:checked~.slide-wrapper .text {
+  margin-left: -74%;
+}
+
+#radio3:checked~.slide-wrapper .text-list {
+  margin-left: -175%;
+}
+
+#radio4:checked~.slide-wrapper .text-list {
+  margin-left: -275%;
+}
+
+#radio5:checked~.slide-wrapper .text-list {
+  margin-left: -375%;
+}
+
 #controls {
   margin: -25% 0 0 0;
   width: 100%;
@@ -88,11 +125,20 @@ input {
 }
 
 #active label {
-  border-radius: 3px;
   display: inline-block;
-  width: 45px;
-  height: 25px;
-  background: #bbbbbb;
+  width: 35px;
+  height: 45px;
+  margin-left: 1%;
+}
+
+#active label:hover .btn {
+  background-color: #fff;
+}
+
+.btn {
+  width: 35px;
+  height: 15px;
+  background-color: #18a3dd;
 }
 
 #active label:hover {
@@ -101,7 +147,7 @@ input {
 }
 
 #active {
-  margin: 1% 25% 0 0;
+  margin: -6% 25% 0 0;
   text-align: right;
 }
 
@@ -118,6 +164,9 @@ input {
 #radio5:checked~#active label:nth-child(5) {
   background: #18a3dd;
   border-color: #18a3dd !important;
+  height: 15px;
+  height: 35px;
+  margin-bottom: 17px;
 }
 
 .images {
@@ -146,7 +195,7 @@ input {
     width: 100%;
   }
   #active {
-    margin: 1% 0% 0 0;
+    margin: 10% 0% 0 0;
     text-align: center;
   }
 }
