@@ -6,44 +6,51 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>cssMemSlider</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <main class="main">
-    <input checked type="radio" name="respond" class="radio">
-    <section class="slider">
-      <input checked type="radio" name="respond" class="radio">
-      <input type="radio" name="respond" class="radio">
-      <input type="radio" name="respond" class="radio">
-      <input type="radio" name="respond" class="radio">
-      <input type="radio" name="respond" class="radio">
+    <input checked type="radio" name="respond" id="desktop">
+    <article class="slider" id="slider">
+      <input checked type="radio" name="respond" id="radio1">
+      <input type="radio" name="respond" id="radio2">
+      <input type="radio" name="respond" id="radio3">
+      <input type="radio" name="respond" id="radio4">
+      <input type="radio" name="respond" id="radio5">
 
       <div class="slide-wrapper">
-        <div class="overflow">
+        <div id="overflow">
           <div class="images">
-            <div class="frame"><img src="img/img1.jpg" alt="mem"></div>
-            <div class="frame"><img src="img/img2.png" alt="mem"></div>
-            <div class="frame"><img src="img/img3.jpg" alt="mem"></div>
-            <div class="frame"><img src="img/img4.jpg" alt="mem"></div>
-            <div class="frame"><img src="img/img5.jpg" alt="mem"></div>
+            <article class="frame"><img src="img/img1.jpg" alt="mem"></article>
+            <article class="frame"><img src="img/img2.png" alt="mem"></article>
+            <article class="frame"><img src="img/img3.jpg" alt="mem"></article>
+            <article class="frame"><img src="img/img4.jpg" alt="mem"></article>
+            <article class="frame"><img src="img/img5.jpg" alt="mem"></article>
           </div>
         </div>
       </div>
-      <div class="controls">
+
+      <div class="text1"></div>
+      <div class="text2"></div>
+      <div class="text3"></div>
+      <div class="text4"></div>
+      <div class="text5"></div>
+      <!-- <div id="controls">
+        <label for="radio1"></label>
+        <label for="radio2"></label>
+        <label for="radio3"></label>
+        <label for="radio4"></label>
+        <label for="radio5"></label>
+      </div> -->
+      <div id="active">
         <label for="radio1"></label>
         <label for="radio2"></label>
         <label for="radio3"></label>
         <label for="radio4"></label>
         <label for="radio5"></label>
       </div>
-      <div class="active">
-        <label for="radio1"></label>
-        <label for="radio2"></label>
-        <label for="radio3"></label>
-        <label for="radio4"></label>
-        <label for="radio5"></label>
-      </div>
-    </section>
+    </article>
   </main>
 </body>
 
