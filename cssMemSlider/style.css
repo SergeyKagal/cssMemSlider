@@ -202,4 +202,22 @@ input {
     margin: 10% 0% 0 0;
     text-align: center;
   }
+  #radio5:checked~.text-wrapper .text-list {
+    margin-left: -390%;
+  }
+  #radio2:checked~.text-wrapper .text-list {
+    margin-left: -70%;
+  }
+  #radio3:checked~.text-wrapper .text-list {
+    margin-left: -170%;
+  }
+  #radio4:checked~.text-wrapper .text-list {
+    margin-left: -273%;
+  }
+}
+
+@media (max-width: 340px) {
+  .text-list {
+    margin-top: 50%;
+  }
 }
